@@ -446,21 +446,6 @@ static INT32 httpin_default_cb(void* buf, UINT32 size, void* ctx, UINT32 status)
 	}
 	return 0;	
 }
-#if 0
-int main(char argc, char** argv)
-{
-	INT32 ret;
-	ret = httpin_get("http://tr.kingofsat.net/dl.php?pos=42.0E&fkhz=0",
-				NULL,
-				NULL,
-				NULL,
-				NULL);
-	
-//	httpin_set_header_from_url("http://tr.kingofsat.net/dl.php?pos=42.0E&fkhz=0", "fdasdfasdfsafd", HTTPIN_GET,  buf, 2048);http://gdata.youtube.com/feeds/api/videos
-	printf("ret = %d\n", ret);
-	return 0;
-}
-#endif
 
 
 

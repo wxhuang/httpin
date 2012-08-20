@@ -1,1 +1,3 @@
 Used in embeded system,based on TCP/IP stack such as LWIP...
+
+support GET request at present.
